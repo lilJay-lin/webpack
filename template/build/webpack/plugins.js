@@ -21,6 +21,7 @@ const configPlugins = [
       warnings: false
     }
   }),
+  new webpack.BannerPlugin("Author: " + pkg.author + " \n Name: " + pkg.name +" \n Version: " + pkg.version),
   /*new webpack.optimize.OccurrenceOrderPlugin(),*/
   /*提取公共代码*/
   //new webpack.optimize.CommonsChunkPlugin({

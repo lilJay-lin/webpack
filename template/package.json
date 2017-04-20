@@ -1,7 +1,7 @@
 {
-  "name": "webpack",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "webpack project seed",
+  "description": "{{ description }}",
   "main": "",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -9,11 +9,7 @@
     "test": "karma start test/unit/karma.conf.js"
   },
   "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lilJay-lin/webpack"
-  },
-  "author": "liljay",
+  "author": "{{ author }}",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
